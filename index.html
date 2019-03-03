@@ -20,25 +20,46 @@
   <!-- Theme CSS -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-</head>
 
+</head>
 <body>
-  <div class="modal.open">
-    <div class="modal_header">
-      <img class="header_img" src="img/logo.png" alt="Summit Roofing Logo">
-    </div>
-    <div class="modal_content">
-      <div class="welcomeTEMP">
-        <p>Welcome to Summit Roofing's development wesbite. More content coming soon...</p>
+
+  <div class="navbar" id="myNavbar">
+
+    <a href="#home">Home</a>
+    <a href="#leakrepair">Leak Repair</a>
+    <a href="#reroof">Reroof</a>
+    <a href="#commercial">Commercial</a>
+    <a href="#residential">Residential</a>
+    <a href="#products">Products</a>
+    <a href="#contactus">Contact Us</a>
+
+    <a href="javascript:void(0);" class="hamburger" onclick="hamburgermenu()">
+      <div class="hamburger" onclick="hamburgermenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
       </div>
-      <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-      <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-      <script src="js/plugins.js"></script>
-      <script src="js/main.js"></script>
-    </div>
-    <div class="modal_foot"></div>
+    </a>
+
   </div>
+
+  <div class="content">
+    <div class="welcomeTEMP">
+
+        <img class="header_img" src="img/logo.png" alt="Summit Roofing Logo">
+      <p>Welcome to Summit Roofing's development wesbite. More content coming soon...</p>
+    </div>
+  </div>
+
+  <div class="modal_foot">
+  </div>
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -46,6 +67,6 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-</body>
 
+</body>
 </html>

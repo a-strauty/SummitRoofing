@@ -132,6 +132,7 @@ header {
   width: 100%;
   left: 0;
   top: 0;
+  border-bottom: 3px solid #772021;
 }
 
 .logo {

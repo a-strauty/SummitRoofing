@@ -97,10 +97,82 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.custom-color {
+  font-weight: bold;
+}
 
+#home .subheading {
+  padding-bottom: 20px;
+  margin-top: -40px;
+  margin-left: 20px;
+  text-align: left;
+  width: 187px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 85%;
+}
 
+#home .subheading .subheading-location {
+  text-align: right;
+  font-size: 70%;
+  font-style: normal;
+}
 
+#home .home_img-wrapper {
+  width: 80%;
+  margin: auto;
+}
 
+#home .home_img {
+  max-width: 100%;
+  max-height: 100%;
+  border: 3px;
+  border-style: solid;
+}
+
+#home .home-wrapper {
+  border-top: 5px;
+  border-style: solid;
+  border-color: #772021;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  padding-top: 30px;
+  text-align: justify;
+  font-size: 150%;
+}
+
+#home .home-wrapper p {
+  width: 100%;
+}
+
+#home .list-wrapper {
+  width: 90%;
+  margin: auto;
+  padding-top: 30px;
+  font-size: 70%;
+  text-align: left;
+}
+
+footer {
+  border: 1px solid #202020;
+  -webkit-box-shadow: 0px -3px 10px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px -3px 10px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px -3px 10px rgba(50, 50, 50, 0.75);
+}
+
+footer .button-call {
+  padding: 0;
+}
+
+.call-font {
+  color: #FFD700;
+  font-size: 140%;
+}
+
+.call-font-accent {
+  font-size: 150%;
+}
 
 
 /* ==========================================================================
